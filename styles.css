@@ -1,0 +1,196 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+/* overarching styles */
+
+/* PWChristmas */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'PWChristmas';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/PWChristmasfont.ttf') format('TrueType'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* Karina */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Karina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/Karina.ttf') format('TrueType'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+	height: 100%;
+	font-size: 18px;
+	background: #ffffff;
+	background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(89, 60, 143, 1) 100%) no-repeat;
+}
+
+/* header styles */
+
+.header h1 {
+	font-family: 'PWChristmas', display;
+	text-align: center;
+	font-weight: normal;
+	font-size: 3.05em;
+	margin-top: 20px;
+}
+
+.header p {
+	font-family: 'Karina', serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 1.25em;
+}
+
+.header figure {
+	text-align: center;
+	font-family: 'Karina', serif;
+	margin-top: 20px;
+}
+
+/* main styles */
+
+.main {
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	display: grid;
+ 	grid-auto-columns: repeat 333px;
+	grid-auto-rows: 475px;
+ 	grid-auto-flow: column;
+	justify-content: space-between;
+}
+
+.main img {
+	height: 300px;
+	margin-left: 12px;
+}
+
+.main figcaption {
+	text-align: center;
+}
+
+.main a {
+	width: 333px;
+	font-family: 'Karina', serif;
+	text-decoration: none;
+	color: rgba(89, 60, 143, 1);
+	font-size: 1.56em;
+	text-align: right;
+	margin: auto;
+	transition: all 2s;
+}
+
+.main a:hover {
+	text-decoration: underline 3px rgba(89, 60, 143, 1);
+}
+
+.main figure {
+	border: 5px solid black;
+	width: 324px;
+	transition: all 1s;
+}
+
+.main figure:hover {
+	border: 5px solid rgba(89, 60, 143, 1);
+	background-color: #bfb7d3;
+}
+
+.main p {
+	font-family: 'Karina', serif;
+	font-weight: 50;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+
+/* main2 styles */
+
+.main2 {
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	margin-top: 0px;
+	display: grid;
+ 	grid-auto-columns: repeat 333px;
+	grid-auto-rows: 475px;
+ 	grid-auto-flow: column;
+	justify-content: space-between;
+}
+
+.main2 img {
+	height: 300px;
+	margin-left: 12px;
+}
+
+.main2 figcaption {
+	text-align: center;
+}
+
+.main2 a {
+	width: 333px;
+	font-family: 'Karina', serif;
+	text-decoration: none;
+	color: rgba(89, 60, 143, 1);
+	font-size: 1.56em;
+	text-align: right;
+	margin: auto;
+	transition: all 2s;
+}
+
+.main2 a:hover {
+	text-decoration: underline 3px rgba(89, 60, 143, 1);
+}
+
+.main2 figure {
+	border: 5px solid black;
+	width: 324px;
+	transition: all 1s;
+}
+
+.main2 figure:hover {
+	border: 5px solid rgba(89, 60, 143, 1);
+	background-color: #bfb7d3;
+}
+
+.main2 p {
+	font-family: 'Karina', serif;
+	font-weight: 50;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
