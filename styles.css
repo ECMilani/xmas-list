@@ -52,8 +52,8 @@ table {
 html {
 	height: 100%;
 	font-size: 18px;
-	background-color: rgba(89, 60, 143, 1);
 	background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(89, 60, 143, 1) 100%) no-repeat;
+	background-color: rgba(89, 60, 143, 1);
 }
 
 /* header styles */
